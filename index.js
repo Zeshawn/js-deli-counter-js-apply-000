@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
-  if (katzDeliLine.length == 0){
+  if (katzDeliLine.length === 0){
     return "There is nobody waiting to be served!"
   }
   else{
@@ -15,6 +15,14 @@ function nowServing(katzDeliLine){
   }
 }
 
-function currentLine(){
-  
+
+function currentLine(katzDeliLine){
+  if (katzDeliLine.length === 0){
+    return "The Line is currently empty."
+  }
+  else{
+    var listNum =["1.", "2.", "3."]
+    
+    
+  }
 }
