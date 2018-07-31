@@ -23,7 +23,10 @@ function currentLine(katzDeliLine, listNum){
     return "The Line is currently empty."
   }
   else{
-  
+   var currentPerson = [];
+   for (var i = 0; i < katzDeliLine.length; i++){
+     arr.currentPerson()
+   }
     
     
   }
