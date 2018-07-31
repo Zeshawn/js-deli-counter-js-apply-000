@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+var katzDeliLine = ["Ada", "Grace"];
 var listNum =["1.", "2.", "3."]
 
 
