@@ -24,7 +24,7 @@ function currentLine(katzDeliLine, listNum){
   }
   else{
    var currentPerson = [];
-   for (var i = 0; i < listNum.length; i++){
+   for (var i = 0; i < katzDeliLine.length; i++){
      currentPerson.push("The line is currently: " + listNum[i]+", " + katzDeliLine[i])
    }
     
