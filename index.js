@@ -28,6 +28,6 @@ function currentLine(katzDeliLine){
      currentPerson.push(" " + listNum [i] + " " + katzDeliLine [i])
    }
     
-    return "The line is currently: " + currentPerson
+    return "The line is currently:" + currentPerson
   }
 }
