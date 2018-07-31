@@ -1,4 +1,6 @@
 var katzDeliLine = [];
+var listNum =["1.", "2.", "3."]
+
 
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
@@ -21,7 +23,7 @@ function currentLine(katzDeliLine, listNum){
     return "The Line is currently empty."
   }
   else{
-    var listNum =["1.", "2.", "3."]
+  
     
     
   }
